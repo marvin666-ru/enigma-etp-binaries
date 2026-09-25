@@ -1,6 +1,5 @@
 {
-  "version": "1.1.2",
-  "parts": ["etp-turnkey-1.1.2.part-aa", "etp-turnkey-1.1.2.part-ab", "etp-turnkey-1.1.2.part-ac"],
-  "sha256": "6fde67e1fedb3a331a2ecb62977ea9b8c707bbd7858cb5519fd077bb7e4a6c36",
-  "source": "ETP-server-source-1.1.2.zip"
+  "version": "1.1.3",
+  "parts": ["etp-turnkey-1.1.3.part-aa", "etp-turnkey-1.1.3.part-ab", "etp-turnkey-1.1.3.part-ac"],
+  "sha256": "2c202b886dec672c570d5842304eb93996259a2bf382f271ed7c2c876df0647e"
 }
