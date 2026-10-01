@@ -1,5 +1,5 @@
 {
-  "version": "1.1.5",
-  "parts": ["etp-turnkey-1.1.5.part-aa", "etp-turnkey-1.1.5.part-ab", "etp-turnkey-1.1.5.part-ac"],
-  "sha256": "558971fee5c44555f6a68fb67c8a3c426061df679a070edd05f5cc7e249e8655"
+  "version": "1.1.6",
+  "parts": ["etp-turnkey-1.1.6.part-aa", "etp-turnkey-1.1.6.part-ab", "etp-turnkey-1.1.6.part-ac"],
+  "sha256": "c0c93ffd785de82a0c949070f7166bd36c584bf653194322a21bb90b506d3ba7"
 }
