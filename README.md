@@ -2,7 +2,7 @@
 
 Current server core: 1.1.7. This public repository contains compiled installation binaries and installation scripts only; server source is kept private. No live tokens, certificates or profiles are included.
 
-Version 1.1.7 stops re-importing deleted Legacy profiles on every server restart. If the managed registry is missing, upgrade refuses to proceed rather than silently creating keys. The 1.1.6 metrics journal remains included. ETP/1, existing profiles, keys, and transport defaults are unchanged; Keenetic 1.1.5 and 1.1.6 remain compatible.
+Version 1.1.7 stops re-importing deleted Legacy profiles on every server restart. If the managed registry is missing, upgrade refuses to proceed rather than silently creating keys. The 1.1.6 metrics journal remains included. ETP/1, existing profiles, keys, and transport defaults are unchanged; Keenetic 1.1.5–1.1.7 remain compatible.
 
 Download the three `etp-turnkey-1.1.7.part-*` files in order and reconstruct the archive:
 
