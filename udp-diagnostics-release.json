@@ -1,0 +1,7 @@
+{
+  "kind": "enigma-etp-metrics-journal",
+  "release": "2026-10-17",
+  "testedServerVersion": "1.1.8",
+  "archive": "etp-udp-diagnostics-20261017.tar.gz",
+  "sha256": "1a6909cf9faa1ac22d8e17808d018fa71e253d50855c9ff2741d22ec112bbae0"
+}
