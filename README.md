@@ -10,7 +10,7 @@ Download the three `etp-turnkey-1.1.10.part-*` files in order and reconstruct th
 
 ```sh
 cat etp-turnkey-1.1.10.part-{aa,ab,ac} > etp-turnkey-1.1.10.tar.gz
-echo "1fce77bd5727848d8c5ff147bef613c0fd5fb7e3db660f169589f688f6a3b9fd  etp-turnkey-1.1.10.tar.gz" | sha256sum -c -
+echo "30508ea441b08f80bcfc724e9e9c3b63fd1cb4376225f6f965332a48ee1ff571  etp-turnkey-1.1.10.tar.gz" | sha256sum -c -
 tar -xzf etp-turnkey-1.1.10.tar.gz
 cd turnkey
 sha256sum -c MANIFEST.sha256
