@@ -2,16 +2,16 @@
 
 For the signed and notarized Apple Silicon WgTunnel client, see [MACOS.md](MACOS.md). For the Keenetic client, see [KEENETIC.md](KEENETIC.md).
 
-Current server core: 1.1.10. This public repository contains compiled installation binaries and installation scripts only; server source is kept private. No live tokens, certificates or profiles are included.
+Current server core: 1.1.11. This public repository contains compiled installation binaries and installation scripts only; server source is kept private. No live tokens, certificates or profiles are included.
 
-Version 1.1.10 adds an optional second ETP/1 QUIC listener on UDP/8443. The original UDP/TCP 443 and HTTP Edge 8444 endpoints, profile format, keys and certificates are unchanged. Existing Android and macOS clients remain compatible without updates. The upgrade enables UDP/8443 only when it is free and retains the 1.1.9 per-listener UDP diagnostics.
+Version 1.1.11 adds aggregate DNS lookup latency, total outbound TCP dial time, and UDP association destination-limit drops to the server diagnostics. The optional UDP/8443 listener from 1.1.10 remains available. ETP/1, profile format, keys and certificates are unchanged; existing Android and macOS clients remain compatible.
 
-Download the three `etp-turnkey-1.1.10.part-*` files in order and reconstruct the archive:
+Download the three `etp-turnkey-1.1.11.part-*` files in order and reconstruct the archive:
 
 ```sh
-cat etp-turnkey-1.1.10.part-{aa,ab,ac} > etp-turnkey-1.1.10.tar.gz
-echo "30508ea441b08f80bcfc724e9e9c3b63fd1cb4376225f6f965332a48ee1ff571  etp-turnkey-1.1.10.tar.gz" | sha256sum -c -
-tar -xzf etp-turnkey-1.1.10.tar.gz
+cat etp-turnkey-1.1.11.part-{aa,ab,ac} > etp-turnkey-1.1.11.tar.gz
+echo "4dabbf9b8c69ac44595aba5040ca9d7460b9cae8d9edb07df2beb60a97ca3352  etp-turnkey-1.1.11.tar.gz" | sha256sum -c -
+tar -xzf etp-turnkey-1.1.11.tar.gz
 cd turnkey
 sha256sum -c MANIFEST.sha256
 ```
