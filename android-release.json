@@ -1,0 +1,12 @@
+{
+  "channel": "stable",
+  "format": "aes-256-gcm-zip-v1",
+  "package": "ru.gamulin.wgtunnel",
+  "version": "2.1.2",
+  "version_code": 215,
+  "sha256": "e791244a0b4a8e29859eaa0900fadeb55cad6b500fcd6909c085a725ebe22e04",
+  "parts": [
+    "WGTunnel-Android-2.1.2.etp.part-000",
+    "WGTunnel-Android-2.1.2.etp.part-001"
+  ]
+}
