@@ -4,7 +4,7 @@
   "package": "ru.gamulin.wgtunnel",
   "version": "2.1.3",
   "version_code": 216,
-  "sha256": "07e7908a9ffcf3131d2bef7287df74f5e512d7858dfcf4dff371d8abf2c8f946",
+  "sha256": "768101c4fd2a9d78c14fc9eafb9f2d93bde69dad08699a3232479a0ffaf955af",
   "parts": [
     "WGTunnel-Android-2.1.3.etp.part-000",
     "WGTunnel-Android-2.1.3.etp.part-001"
