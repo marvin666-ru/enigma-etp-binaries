@@ -1,6 +1,6 @@
 {
-  "version": "1.1.24",
-  "asset": "Enigma-ETP-Keenetic-1.1.24-arm64-mt7621.zip",
-  "sha256": "7a233073af992a29f19246e398bb9c8d7defaf432bcb6e1551f563867d3edaee",
+  "version": "1.1.25",
+  "asset": "Enigma-ETP-Keenetic-1.1.25-arm64-mt7621.zip",
+  "sha256": "8e74ccda7d4839ba02d771e03650e5c4e5aad94a82b7f5d994eba64ddd63abb5",
   "channel": "beta"
 }
