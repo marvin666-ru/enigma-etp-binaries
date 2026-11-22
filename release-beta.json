@@ -1,0 +1,11 @@
+{
+  "version": "1.1.13",
+  "channel": "beta",
+  "parts": [
+    "etp-turnkey-1.1.13-beta.part-aa",
+    "etp-turnkey-1.1.13-beta.part-ab",
+    "etp-turnkey-1.1.13-beta.part-ac",
+    "etp-turnkey-1.1.13-beta.part-ad"
+  ],
+  "sha256": "01d85f5ac07168f2ccdb385fd47d9228224d372ff2ae7a9a37a156f7adb3a030"
+}
